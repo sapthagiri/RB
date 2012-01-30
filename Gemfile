@@ -35,4 +35,5 @@ end
 group :production do
   # Pretty printed test output
   gem 'thin'
+  gem 'activerecord-postgresql-adapter'
 end
